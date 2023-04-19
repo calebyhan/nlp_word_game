@@ -10,8 +10,6 @@ with open("words.txt", "r") as f:
             continue
         word = aline.strip()
 
-print(word)
-
 guess = ""
 
 while guess.lower() != word.lower():
