@@ -19,8 +19,6 @@ while guess.lower() != word.lower():
 
     process = u"{} {}".format(word, guess)
 
-    print(process)
-
     tokens = nlp(process)
 
     token1, token2 = tokens[0], tokens[1]
